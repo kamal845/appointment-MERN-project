@@ -1,1 +1,5 @@
-console.log("This is new project");
+const express=require("express");
+const app=express();
+app.listen(3000,()=>{
+console.log("server is started");
+});
