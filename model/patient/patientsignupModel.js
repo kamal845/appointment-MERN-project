@@ -3,7 +3,6 @@ const patientSchema=mongoose.Schema({
        patientId: {  // Unique identifier for the patient
        type: mongoose.Schema.Types.ObjectId,
        ref: "Patient",
-       required: true
         },
     name:{
         type:String,
